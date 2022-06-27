@@ -3,12 +3,16 @@
   
   <body>
     
-    <img src = "button.png" width = "500" height = "500">
+    
+    <button onclick="buttonClick()"><img src = "button.png" width = "500" height = "500"></button>
   </body>
   <script>
-    
+    function buttonClick() {
+      
+      document.body.style.backgroundColor = "red";
+    }
   </script>
   <style>
-    document.body.style.backgroundColor = "red";
+    
   </style>
 </html>
