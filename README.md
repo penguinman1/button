@@ -1,1 +1,1 @@
-# button that changes color
+# button that changes background to red when clicked
